@@ -2,7 +2,7 @@
 if("ontouchstart" in window){
     document.documentElement.className = document.documentElement.className + " touch";
 }
-if(!$("html").hasClass("touch")){
+if($("html").hasClass("touch")){
     /* background fix */
     $(".parallax").css("background-attachment", "fixed");
 }
