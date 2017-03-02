@@ -1,3 +1,6 @@
+
+/* thanks to minimit.com */
+
 /* detect touch */
 if("ontouchstart" in window){
     document.documentElement.className = document.documentElement.className + " touch";
@@ -6,20 +9,6 @@ if($("html").hasClass("touch")){
     /* background fix */
     $(".parallax").css("background-attachment", "fixed");
 }
-
-/* fix vertical when not overflow
-call fullscreenFix() if .fullscreen content changes */
-/*function fullscreenFix(){
-    var h = $('body').height();
-    // set .fullscreen height
-    $(".content-b").each(function(i){
-        if($(this).innerHeight() <= h){
-            $(this).closest(".fullscreen").addClass("not-overflow");
-        }
-    });
-}
-$(window).resize(fullscreenFix);
-fullscreenFix();*/
 
 /* resize background images */
 function backgroundResize(){
