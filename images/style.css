@@ -1,0 +1,833 @@
+@font-face {
+font-family: 'GothamNarrow-Book';
+font-style: normal;
+font-weight: normal;
+src: local('GothamNarrow-Book'), url('GothamNarrow-Book.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Bauer Bodoni Std Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Bauer Bodoni Std Roman'), url('BauerBodoniStd-Roman.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Bauer Bodoni Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Bauer Bodoni Roman'), url('lte50438.woff') format('woff');
+}
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;background-color:#0dc9b7;
+}
+.onlybig {display:block}
+a {color:white}
+
+.lang {background-color:#0DC9B7; font-family:'GothamNarrow-Book', open sans, helvetica; font-size:18px; color: #FFFFFF;}
+.mid {position:absolute; top:25%;}
+.mid p {line-height:10px; margin-top:14px;}
+.mid a {margin-left:20px;margin-right:22px; color:white; text-decoration:none;}
+.mid a:hover {border-bottom:solid white 2px; padding-bottom:4px;}
+.bottom {position:fixed;bottom:0px;height:31px;background-color:#ABECE6;width:100%;float:left;z-index:9999}
+.top {position:fixed;top:0px;height:31px;background-color:#ABECE6;width:100%;float:left;z-index:9999}
+.up {margin-top:-150px;}
+hr {border-bottom: 1px solid white;
+    border-color: -moz-use-text-color white white;
+    border-top: 0 none;border-right: 0 none;border-left: 0 none;}
+	
+	
+	
+	
+	
+.ri {position:absolute;left:30%;max-width:40%;max-height:50%;}
+.ri2 {position:absolute;left:30%;width:40%;max-height:50%; }
+
+.ri3 {position:absolute;left:25%;max-width:50%;max-height:50%;top: -125px; }
+.ri3x {top:-87px;max-width:54%;left:23%; }
+.ri4 {left: 16%;    max-height: 33%;    position: absolute;    width: 36%; top:60%;}
+.ri5 {float: left;
+    padding-left: 20%;
+    padding-top: 16%;
+    position: relative;
+    width: 60%;}
+    
+.ri6{right: 20%;    
+    position: absolute;
+    top: 66%;
+    width: 25%;height:10%;}
+    
+    
+     
+   
+.ri3 h1 {font-family: "Bauer Bodoni Roman"; font-size: 80px; line-height: 76px;}
+.ri3 h2 {font-family: 'GothamNarrow-Book';
+	 font-size:24px;line-height: 28px; text-transform:uppercase;margin-top: 16px; margin-bottom: 29px; font-weight: 100;}
+.ri3 p {font-family: "GothamNarrow-Book";
+    font-size: 17px;
+    left: 25%;
+    line-height: 26px;
+    margin-top: 0;
+    position: absolute;
+    width: 50%;}
+	
+.ri5 h1 { font-family: "Bauer Bodoni Roman";
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 9px;
+    margin-top: 0;font-weight: 100;
+    width: 100%;text-align: left;}
+    
+.ri5 p {font-family: "GothamNarrow-Book";
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 0px;
+    margin-top: 10px;
+    position: absolute;
+    text-align: left;
+    width: 75%;}
+    
+.ri6 p {font-family: "GothamNarrow-Book";
+    font-size: 15px;
+    left: 0%;
+    line-height: 18px;
+    margin-top: 10%;
+    position: absolute;
+    width: 50%;text-align:left;}
+    
+.ri6 h2 {font-family: "GothamNarrow-Book";
+    font-size: 15px;
+    left: 0%;
+    line-height: 18px;
+    color:#ABECE6;
+    font-weight:700;
+    text-align:left;}
+    
+.ri7{width:45%;float:left;border-top:white solid 1px;font-size:17px;line-height:26px}
+
+    
+.lugar {height:1700px;}
+.first {height:2000px;}	
+.second {height:2000px;}	
+.last {height:1000px;}	
+
+.rombos {width:80%;left:10%;position:absolute;}  
+.rombos2 {height:600px;}  
+
+.ri8 {
+    float: left;
+    font-family: "GothamNarrow-Book";
+    font-size: 17px;
+    line-height: 22px;
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    width: 20%;
+}
+.ri8 h1 {font-size:44px;font-family: "Bauer Bodoni Roman";font-weight: 100; text-align:center; white-space: nowrap;}
+
+
+.ri9 {
+    border-top: 1px solid white;
+    margin-left: 7%;
+    width: 85%;
+}      
+.volar {left:15%;}    
+.dormir {left:40%;}    
+.visitar {left:65%;}    
+
+
+.ri10  {
+    left: 25%;
+    height: 160px;
+    position: absolute;
+    width: 50%;
+	margin-top:97px;
+	
+}
+
+.ri11  {
+    width: 100%;
+	top:0;
+    height: 50%;
+    position: relative;
+    background-color:#ABECE6;
+	font-family:"GothamNarrow-Book";
+	font-size: 17px;
+    line-height: 22px;
+}
+
+.ri12  {
+    width: 100%;
+	bottom:0;
+    height: 50%;
+    position: relative;
+    background-color:#D1C5BD;
+	font-size:21px;font-family: "Bauer Bodoni Roman";font-weight: 700;line-height: 27px;
+}
+
+
+.paddingfondo1 {width;100%;height:100%;padding-top:21px}
+.paddingfondo2 {height:100%;width:100%;padding-top:13px;}	
+
+@media all and (orientation:portrait) {  
+    
+    .top {position:fixed;top:0px;height:100%;background-color:#ABECE6;width:100%;float:left;z-index:9999}
+     .top p {display:block;width:60%;color:black;font-size:18px;line-height:19px;font-family: "GothamNarrow-Book";}
+    
+}  
+
+@media all and (orientation:landscape) {  
+    .ri { margin-top:-15% }
+   
+    .top {position:fixed;top:0px;height:31px;background-color:#ABECE6;width:100%;float:left;z-index:9999}
+    .top p {display:none;}
+}  
+
+@media only screen { 
+
+
+
+.onlybig {display:none}
+.ri2 {
+    margin-top: -25%;
+}
+.ri2 {
+    left: 26%;
+    max-height: 50%;
+    position: absolute;
+    width: 48%;
+}
+.ri3 h1 {
+    font-family: "Bauer Bodoni Roman";
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 18px;margin-bottom: 5px; margin-top: 0px;
+}
+.ri3 h2 {
+    font-family: "GothamNarrow-Book";
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 5px;margin-top: 5px;
+    text-transform: uppercase;
+}
+
+hr {    margin-bottom: 5px;margin-top: 5px;
+}
+
+.ri3 p {
+    font-family: "GothamNarrow-Book";
+    font-size: 9px;
+    left: 10%;
+    line-height: 13px;
+    margin-top: 0;
+    position: absolute;
+    width: 80%;
+}
+
+.ri3x {
+    top: -105px;
+}
+
+.ri2x {
+    margin-top: -22%;
+}
+
+.ri5 h1 { font-family: "Bauer Bodoni Roman";
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 9px;
+    margin-top: 0;font-weight: 100;
+    width: 100%;text-align: left;}
+    
+.ri5 p {font-family: "GothamNarrow-Book";
+    font-size: 9px;
+    line-height: 10px;
+    margin-left: 0px;
+    margin-top: 8px;
+    position: absolute;
+    text-align: left;
+    width: 75%;}
+    
+.ri6 {
+    height: 25%;
+    position: absolute;
+    right: 15%;
+    top: 65%;
+    width: 25%;
+}  
+    
+.ri6 p {font-family: "GothamNarrow-Book";
+    font-size: 9px;
+    left: 0%;
+    line-height: 10px;
+    margin-top: 10%;
+    position: absolute;
+    width: 50%;text-align:left;}
+	
+.ri7 {
+   
+    font-size: 10px;
+    line-height: 11px;
+   
+}
+	
+.ri8 {
+    top: -50px;
+}
+.rombos2 {
+    height: 320px;
+}
+.ri8 {font-size: 9px;line-height: 11px;}
+.ri8 h1 {font-size:15px;}
+
+
+.ri9 {
+    border-top: 1px solid white;
+    margin-left: 7%;
+    width: 105%;
+}
+
+
+.ri10 {
+    height: 80px;
+    left: 17%;
+    margin-top: 20px;
+    position: absolute;
+    width: 66%;
+}
+
+.ri11 {
+     font-size: 14px;
+    line-height: 18px; text-shadow: 1px 1px 1px grey;
+}
+
+
+.ri12 {
+  
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.paddingfondo1 {
+    height: 100%;
+    padding-top: 2px;
+}
+
+.paddingfondo2 {
+    height: 100%;
+    padding-top: 4px;
+    width: 100%;
+}
+
+.lugar {
+    height: 300px;
+}
+
+.first {height:700px;}
+.second {height:540px;}	
+.last {height:180px}	 
+}
+
+
+
+
+@media only screen and (min-width: 500px) { 
+
+.onlybig {display:none}
+.ri2 {
+    margin-top: -10%;
+}
+.ri2 {position:absolute;left:30%;width:40%;max-height:50%; }
+.ri3 h1 {
+    font-size: 46px;
+    line-height: 48px;
+    margin-bottom: 15px;
+    margin-top: 15%;
+}
+.ri3 h2 {
+    font-size: 14px;
+    line-height: 16px; margin-bottom: 12px;
+    }
+.ri3 p {
+    font-family: "GothamNarrow-Book";
+    font-size: 13px;
+    left: 20%;
+    line-height: 15px;
+    margin-top: 0;
+    position: absolute;
+    width: 60%;
+}
+
+hr {    margin-bottom: 8px;margin-top: 8px;
+}
+
+.ri3 {position:absolute;left:25%;max-width:50%;max-height:50%;top: -175px;display:block}
+.ri3x {
+    top: -137px;
+}
+.ri2 {display:block}  
+.ri2x {
+    margin-top: -8%;
+}  
+.ri5 h1 {
+    font-family: "Bauer Bodoni Roman";
+    font-size: 44px;
+    font-weight: 100;
+    line-height: 46px;
+    margin-bottom: 7px;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+}
+
+
+.ri5 {
+    float: left;
+    padding-left: 20%;
+    padding-top: 12%;
+    position: relative;
+    width: 60%;
+}
+
+    
+.ri5 p {
+    font-family: "GothamNarrow-Book";
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 0;
+    margin-top: 10px;
+    position: absolute;
+    text-align: left;
+    width: 75%;
+}
+    
+.ri6 {
+    height: 14%;
+    position: absolute;
+    right: 20%;
+    top: 68%;
+    width: 25%;
+}
+	
+.ri6 p {font-family: "GothamNarrow-Book";
+    font-size: 13px;
+    left: 0%;
+    line-height: 14px;
+    margin-top: 10%;
+    position: absolute;
+    width: 50%;text-align:left;}  
+	
+
+.ri7{font-size:13px;line-height:20px;}	
+	
+.ri8 {
+    font-size: 12px;
+    line-height: 14px; top: -30px;
+}
+
+.ri9 {
+    border-top: 1px solid white;
+    margin-left: 7%;
+    width: 90%;
+}  
+
+.ri8 h1 {font-size:26px;}
+
+
+.lugar {
+    height: 700px;
+} 
+.rombos2 {
+    height: 340px;
+}
+
+
+.first {height:1100px;}
+.second {height:1000px;}
+.last {
+    height: 380px;
+}
+
+
+
+.ri10 {
+    height: 100px;
+    left: 20%;
+    margin-top: 60px;
+    position: absolute;
+    width: 60%;
+}
+
+.ri11 {
+    font-size: 16px;
+    line-height: 20px;text-shadow: 1px 1px 1px grey;
+}
+
+
+.ri12 {
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 18px; 
+}
+ 
+
+}
+
+
+
+@media only screen and (min-width: 900px) { 
+.onlybig {display:none}
+.ri2 { margin-top:-5% }
+.ri2 {position:absolute;left:30%;width:40%;max-height:50%; }
+.ri3 h1 {
+    font-family: "Bauer Bodoni Roman";
+    font-size: 60px;
+    line-height: 56px;
+    margin-bottom: 20px;
+    margin-top: 72px;
+}
+.ri3 h2 {
+    font-family: "GothamNarrow-Book";
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 20px;
+    margin-bottom: 22px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+.ri3 p {font-family: "GothamNarrow-Book";
+    font-size: 15px;
+    left: 25%;
+    line-height: 20px;
+    margin-top: 0;
+    position: absolute;
+    width: 50%;}
+.ri3 {position:absolute;left:25%;max-width:50%;max-height:50%;top: -175px;display:block}
+.ri3x {
+    top: -147px;
+}
+.ri2 {display:block}    
+.ri5 h1 { font-family: "Bauer Bodoni Roman";
+    font-size: 46px;
+    line-height: 48px;
+    margin-bottom: 7px;
+    margin-top: 0;font-weight: 100;
+    width: 100%;text-align: left;}
+	
+.ri5 {float: left;
+    padding-left: 20%;
+    padding-top: 16%;
+    position: relative;
+    width: 60%;}
+	
+	hr {    margin-bottom: 12px;margin-top: 12px;
+}
+    
+.ri5 p {font-family: "GothamNarrow-Book";
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 0px;
+    margin-top: 10px;
+    position: absolute;
+    text-align: left;
+    width: 75%;}
+    
+
+    
+.ri6 {
+    height: 15%;
+    position: absolute;
+    right: 20%;
+    top: 70%;
+    width: 25%;
+}
+    
+.ri6 p {
+    font-family: "GothamNarrow-Book";
+    font-size: 13px;
+    left: 0;
+    line-height: 14px;
+    margin-top: 10%;
+    position: absolute;
+    text-align: left;
+    width: 60%;
+}
+	
+.ri7{font-size:14px;line-height:20px}	
+.ri8 h1 {font-size:36px;}
+
+.lugar {
+    height: 800px;
+}	
+
+.first {height:1400px;}
+.second {height:1100px;}
+.last {height:500px}
+.rombos2 {
+    height: 460px;
+}
+.ri8 {
+    font-size: 14px;
+    line-height: 18px;top:20px;
+}
+
+.ri9 {
+    border-top: 1px solid white;
+    margin-left: 7%;
+    width: 85%;
+}  
+
+
+.ri10 {
+    height: 140px;
+    left: 25%;
+    margin-top: 75px;
+    position: absolute;
+    width: 50%;
+}
+
+.ri11  {
+    width: 100%;
+	top:0;
+    height: 50%;
+    position: relative;
+    background-color:#ABECE6;
+	font-family:"GothamNarrow-Book";
+	font-size: 17px;
+    line-height: 22px;text-shadow: 0 0 0 ;
+}
+
+.ri12  {
+    width: 100%;
+	bottom:0;
+    height: 50%;
+    position: relative;
+    background-color:#D1C5BD;
+	font-size:21px;font-family: "Bauer Bodoni Roman";font-weight: 700;line-height: 27px;
+}
+
+
+
+.paddingfondo1 {
+    height: 100%;
+    padding-top: 11px;
+}
+
+.paddingfondo2 {
+    height: 100%;
+    padding-top: 10px;
+    width: 100%;
+}
+
+	  
+}
+
+
+@media only screen and (min-width: 1150px) { 
+.onlybig {display:block}
+.ri2 { margin-top: 0 }
+.ri2 {position:absolute;left:30%;width:40%;max-height:50%; }
+.ri3 h1 {font-family: "Bauer Bodoni Roman"; font-size: 80px; line-height: 76px; margin-top: 50px;margin-bottom:37px;}
+.ri3 h2 {font-family: 'GothamNarrow-Book';
+	 font-size:24px;line-height: 28px; text-transform:uppercase;margin-top: 16px; margin-bottom: 29px;}
+.ri3 p {font-family: "GothamNarrow-Book";
+    font-size: 17px;
+    left: 25%;
+    line-height: 26px;
+    margin-top: 0;
+    position: absolute;
+    width: 50%;}
+ .ri3 {position:absolute;left:25%;max-width:50%;max-height:50%;top: -125px;z-index: 99999; }
+ .ri3x {top:-87px;max-width:53%;left:23.5%; }
+ 
+ hr {    margin-bottom:14px;margin-top: 14px;
+}
+   
+ .ri5 h1 { font-family: "Bauer Bodoni Roman";
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 9px;
+    margin-top: 0;font-weight: 100;
+    width: 100%;text-align: left;}
+    
+.ri5 p {font-family: "GothamNarrow-Book";
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 0px;
+    margin-top: 10px;
+    position: absolute;
+    text-align: left;
+    width: 75%;}
+    
+
+.ri5 {float: left;
+    padding-left: 20%;
+    padding-top: 16%;
+    position: relative;
+    width: 60%;}	
+	
+
+.ri6 {
+    height: 12%;
+    position: absolute;
+    right: 20%;
+    top: 68%;
+    width: 25%;
+}
+    
+.ri6 p {font-family: "GothamNarrow-Book";
+    font-size: 15px;
+    left: 0%;
+    line-height: 18px;
+    margin-top: 10%;
+    position: absolute;
+    width: 50%;text-align:left;}   
+	
+.ri7{font-size:17px;line-height:26px}	
+.lugar {
+    height: 1300px;
+} 
+
+.first {height:1700px;}	
+.second {height:1600px;}
+.last {height:700px}	
+
+.rombos2 {height:570px;}  
+
+	
+.ri8 {font-size: 17px;line-height: 22px; top:50px;}
+.ri8 h1 {font-size:44px;}	
+
+
+.ri10  {
+    left: 25%;
+    height: 160px;
+    position: absolute;
+    width: 50%;
+	margin-top:97px;
+	
+}
+
+.ri11  {
+    width: 100%;
+	top:0;
+    height: 50%;
+    position: relative;
+    background-color:#ABECE6;
+	font-family:"GothamNarrow-Book";
+	font-size: 17px;
+    line-height: 22px;text-shadow: 0 0 0 ;
+}
+
+.ri12  {
+    width: 100%;
+	bottom:0;
+    height: 50%;
+    position: relative;
+    background-color:#D1C5BD;
+	font-size:21px;font-family: "Bauer Bodoni Roman";font-weight: 700;line-height: 27px;
+}
+
+
+.paddingfondo1 {width;100%;height:100%;padding-top:21px}
+.paddingfondo2 {height:100%;width:100%;padding-top:13px;}	
+    
+}
+
+
+
+@media only screen and (min-width: 1500px) { 
+.ri2 {position:absolute;left:30%;width:40%;max-height:50%; }
+hr {    margin-bottom: 15px;margin-top: 15px;
+}
+.ri6{right: 18%;    
+   
+    top: 65%;
+    width: 26%;height:13%;} 
+
+.ri4{
+    top: 57%;
+  } 
+
+.ri5 p {
+    font-size: 18px;
+    line-height: 21px;
+   }	 
+	
+	
+.ri6 p {
+    font-size: 18px;
+    line-height: 21px;
+   }   
+
+.first {height:2000px;}	
+.second {height:2000px;}
+.last {height:1000px}	
+.rombos2 {height:750px;}  
+
+.ri8 {font-size: 19px;line-height: 23px; top:75px;}
+.ri8 h1 {font-size:46px;}
+
+.lugar {
+    height: 1700px;
+} 
+.last {height:950px}	
+  .first {height:2200px}	
+}
+
+    
+.fullscreen,
+.content-a {
+    width:100%;
+  
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+	display:table;
+}
+.content-b {
+	display:table-cell;
+    position:relative;
+	vertical-align:middle;
+	text-align:center;
+}
+
+/* visual styles */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:28px;
+    line-height:100px;
+	color:#ffffff;
+    text-align:center;
+	padding:31px;
+}
+section {
+	background:transparent;
+}
+.not-fullscreen {
+    height:50%;
+}
